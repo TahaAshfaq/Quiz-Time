@@ -16,7 +16,7 @@
     margin: 15px;
 }
 .main h1{
-    margin-top: 0px;
+    margin: -10px;
     font-size: 40px;
     font-weight: 600;
     letter-spacing: -1px;
@@ -25,17 +25,22 @@
     color:#0E84FF ;
 }
 .main p{
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: -.025px;
     font-size: 15px;
     font-weight: 500;
 }
 .main input{
     margin-top: 9px;
+    padding: 10px;
     width: 350px;
     height: 40px;
     border:1px solid#B2B2B2 ;
     border-radius: 8px;
+}
+.main input:focus{
+    border-color: #0E84FF;
+    outline: none;
 }
 .btn{
     display: flex;
