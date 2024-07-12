@@ -13,6 +13,15 @@
 }
 #logo{
     margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+#logo button{
+    padding: 5px 50px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #0E84FF;
 }
 
 .container{
@@ -22,7 +31,7 @@
     justify-items: center;
 }
 .container h1{
-    margin: -15px;
+    margin-top: 10px;
     font-size: 40px;
     font-weight: 600;
     letter-spacing: -1px;
@@ -32,7 +41,7 @@
     color: #0E84FF;
 }
 form{
-    margin: 50px 10px 10px 10px;
+    margin: 20px 10px 10px 10px;
     padding: 10px; 
     display: flex;
     flex-direction: column;
@@ -43,6 +52,15 @@ form{
 }
 
 .Email, .Password, .FullName{
+    margin: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    font-size: 15px;
+    
+}
+.QuizName, .SubjectName, .TotalQuestions{
     margin: 0.7rem;
     display: flex;
     flex-direction: column;
